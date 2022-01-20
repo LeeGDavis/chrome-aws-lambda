@@ -32,7 +32,10 @@
     "target": "es2018",
     "traceResolution": false,
     "typeRoots": ["node_modules/@types", "typings"],
-    "types": ["node"]
+    "types": ["node"],
+    "paths": {
+      "*": ["node_modules/@types/*", "*"]
+    }
   },
   "exclude": ["build", "node_modules", "tmp"],
   "include": ["source"],
