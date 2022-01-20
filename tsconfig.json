@@ -31,11 +31,7 @@
     "strictNullChecks": false,
     "target": "es2018",
     "traceResolution": false,
-    "typeRoots": ["node_modules/@types", "typings"],
-    "types": ["node"],
-    "paths": {
-      "*": ["./node_modules/@types/*", "./*"]
-    }
+    "typeRoots": ["node_modules/@types", "typings"]
   },
   "exclude": ["build", "node_modules", "tmp"],
   "include": ["source"],
