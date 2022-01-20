@@ -18,7 +18,7 @@
     "node": ">= 12"
   },
   "scripts": {
-    "build": "rimraf build && tsc -p tsconfig.json",
+    "build": "rimraf build && tsc -p ./tsconfig.json",
     "postversion": "git push && git push --tags && npm publish",
     "prepack": "npm run build",
     "preversion": "npm run build"
